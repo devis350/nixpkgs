@@ -16963,6 +16963,7 @@ with pkgs;
 
   cargo-about = callPackage ../development/tools/rust/cargo-about { };
   cargo-all-features = callPackage ../development/tools/rust/cargo-all-features { };
+  cargo-aoc = callPackage ../development/tools/rust/cargo-aoc { };
   cargo-apk = callPackage ../development/tools/rust/cargo-apk { };
   cargo-audit = callPackage ../development/tools/rust/cargo-audit {
     inherit (darwin.apple_sdk.frameworks) Security;
